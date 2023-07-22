@@ -1,13 +1,13 @@
 import React from 'react';
 import './Navbar.css';
-import Logo from '../../images/Logo.png';
+// import Logo from '../../images/Logo.png';
 
 function Navbar() {
   return (
     <nav className="nav_section">
       <div className='left_container'>
         <div className="logo">
-          <img src={Logo} alt="logo" />
+          {/* <img src={Logo} alt="logo" /> */}
         </div>
         <div className="nav-items">
           <li><a href="/">Courses</a></li><i className="fa-solid fa-angle-down"></i>
