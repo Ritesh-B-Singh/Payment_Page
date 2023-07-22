@@ -1,20 +1,20 @@
 import React, { useState } from "react";
-import "./Pricingbody.css";
-import courses from "../Images/pointer1icon.png";
-import timer from "../Images/pointer2icon.png";
-import live from "../Images/pointer3icon.png";
-import scholarship from "../Images/pointer4icon.png";
-import ads from "../Images/pointer5icon.png";
-import one from "../Images/Icon1.png";
-import two from "../Images/Icon2.png";
-import Razorpay from "../Images/RazorpayIcon.png"
-import IconClock from "../Images/IconClock2.png";
+import "./PaymentPage.css";
+import courses from "../../images/pointer1icon.png";
+import timer from "../../images/pointer2icon.png";
+import live from "../../images/pointer3icon.png";
+import scholarship from "../../images/pointer4icon.png";
+import ads from "../../images/pointer5icon.png";
+import one from "../../images/Icon1.png";
+import two from "../../images/Icon2.png";
+import Razorpay from "../../images/RazorpayIcon.png"
+import IconClock from "../../images/IconClock2.png";
 import { GrRadialSelected } from 'react-icons/gr';
 import { BsCheckCircleFill } from 'react-icons/bs';
-import { MdRadioButtonChecked, MdRadioButtonUnchecked } from 'react-icons/md';
+import { MdRadioButtonUnchecked } from 'react-icons/md';
 
 
-function Pricingbody() {
+function PaymentPage() {
     const [select, setSelect] = useState({
         12: true,
         6: false,
@@ -241,4 +241,4 @@ function Pricingbody() {
     );
 }
 
-export default Pricingbody;
+export default PaymentPage;

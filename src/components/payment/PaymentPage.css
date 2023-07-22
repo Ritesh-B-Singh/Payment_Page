@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .pricing_section {
-    background-image: url(../Images/Background.png);
+    background-image: url(../../images/Background.png);
     background-color: #172746;
     background-size: 100% 100%;
     max-width: 100%;
