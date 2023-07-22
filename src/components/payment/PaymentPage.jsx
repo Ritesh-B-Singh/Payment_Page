@@ -13,7 +13,6 @@ import { GrRadialSelected } from 'react-icons/gr';
 import { BsCheckCircleFill } from 'react-icons/bs';
 import { MdRadioButtonUnchecked } from 'react-icons/md';
 
-
 function PaymentPage() {
     const [select, setSelect] = useState({
         12: true,
