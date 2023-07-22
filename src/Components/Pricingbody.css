@@ -352,3 +352,27 @@ hr {
     height: 40px;
     display: flex;
 }
+
+@media (max-width: 900px) {
+	.pricing_section {
+		flex-direction: column;
+        padding-left: 6%;
+        padding-right: 6%;
+	}
+
+    .content_container {
+        width: 100%;
+    }
+
+    .payment_plan_container {
+        width: 100%;
+    }
+
+    .heading {
+        width: 100%;
+    }
+
+    .payment_plan_card {
+        width: 100%;
+    }
+}

@@ -7,6 +7,7 @@ import scholarship from "../Images/pointer4icon.png";
 import ads from "../Images/pointer5icon.png";
 import one from "../Images/Icon1.png";
 import two from "../Images/Icon2.png";
+import Razorpay from "../Images/RazorpayIcon.png"
 import IconClock from "../Images/IconClock2.png";
 import { GrRadialSelected } from 'react-icons/gr';
 import { BsCheckCircleFill } from 'react-icons/bs';
@@ -231,7 +232,7 @@ function Pricingbody() {
                             <button className="cancel-btn">CANCEL</button>
                             <button className="pay-btn">PROCEED TO PAY</button>
                         </div>
-                        <img src="https://cdn.razorpay.com/static/assets/merchant-badge/badge-dark.png" className='razorpay-logo' alt="logo" />
+                        <img src={Razorpay} className='razorpay-logo' alt="logo" />
 
                     </div>
                 </div>
